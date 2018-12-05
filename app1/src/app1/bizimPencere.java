@@ -11,6 +11,7 @@ public class bizimPencere extends JFrame{
         g.drawRect(120, 100, 250, 200);
         g.drawRect(185, 150, 125, 100);
         g.drawLine(120, 100, 370, 300);
+        this.setDefaultCloseOperation(bizimPencere.EXIT_ON_CLOSE);
     }
 }
 class bizimPencere2 extends JFrame{
@@ -18,6 +19,7 @@ class bizimPencere2 extends JFrame{
     public bizimPencere2(){
         super();
         r = new Random();
+        this.setDefaultCloseOperation(bizimPencere.EXIT_ON_CLOSE);
     }
     @Override
     public void paint(Graphics g){
